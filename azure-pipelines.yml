@@ -4,8 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger: 
-- '*' 
-
+-'*' 
+#comments
 pool: 
 	vmImage: 'ubuntu-20.04'
   demands: 
