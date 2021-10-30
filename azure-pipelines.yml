@@ -5,11 +5,10 @@
 
 trigger: 
 - '*' 
-
-
+#comments
 pool: 
-	vmImage: 'ubuntu-20.04'
- 	demands: 
+	vmImage:'ubuntu-20.04'
+  demands: 
  	- npm 
 
 variables: 
@@ -48,6 +47,3 @@ inputs:
 	 command: 'build' 
 	 arguments: '--no-restore --configuration Release' 
 	 projects: '**/*.csproj'
-
-
-
